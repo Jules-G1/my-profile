@@ -65,13 +65,13 @@ input{
 
 @media (max-width: 720px) {
   .container{
-    width: 500px;
+    width: 600px;
   }
 }
 
 @media (max-width: 540px) {
   .container{
-    width: 300px;
+    width: 400px;
   }
 }
 
