@@ -1,6 +1,6 @@
-# Online curriculum vitae - side project for professional visibility
+# Online CV - little project to improve front-end skills
 
-## TO-D0:
+## TOD0:
 * Add a french version to website
 * Modify header 
 * Add a navbar with tab
