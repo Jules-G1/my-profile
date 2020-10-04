@@ -1,4 +1,4 @@
-# Online curriculum vitae - side project for profesionnal visibility
+# Online curriculum vitae - side project for professional visibility
 
 ## TO-D0:
 * Add a french version to website
