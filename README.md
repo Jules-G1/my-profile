@@ -1,6 +1,6 @@
 # Online CV - little project to improve front-end skills
 
-## TOD0:
+## TODO:
 * Add a french version to website
 * Modify header 
 * Add a navbar with tab
