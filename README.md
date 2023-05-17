@@ -1,5 +1,7 @@
 # Online CV - little project to improve front-end skills
 
+[Visit My Profile](https://jules-g1.github.io/my-profile/)
+
 ## TODO:
 * Add a french version to website
 * Modify header 
