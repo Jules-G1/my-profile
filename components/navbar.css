@@ -1,0 +1,48 @@
+/* Add a background color to the top navigation */
+  .topnav ul{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .topnav ul li{
+    list-style:none;
+  }
+  
+  .topnav ul li a{
+    display: block;
+    position:relative;
+    text-decoration:none;
+    padding:5px;
+    font-size:18px;
+    color:#fff;
+    transition:0.5s;
+  }
+  
+  .topnav ul li a:hover{
+    opacity:1;
+    filter:blur(0);
+    text-decoration:none;
+    color:#fff;
+  }
+  
+  .topnav ul li a:before{
+    content:'';
+    position:absolute;
+    top:30px;
+    left:0;
+    width:98%;
+    height:4%;
+    background:#ffffff;
+    transition:0.5s;
+    transform-origin:right;
+    transform:scaleX(0);
+    z-index:-1;
+  }
+  
+  .topnav ul li a:hover:before{
+    transition:transform 0.5s;
+    transform-origin:left;
+    transform:scaleX(1);
+  }

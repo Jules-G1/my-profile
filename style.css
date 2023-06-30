@@ -1,3 +1,5 @@
+@import url("components/navbar.css");
+
 /* Color and fonts */
 
 body{
@@ -7,29 +9,35 @@ body{
   margin: 0px
 }
 
+.title{
+  padding-left: 16px;
+  padding-bottom: 5px;
+}
+
 h1{
   color: #E6E1E4 ;
   font-weight: 600;
-  font-size: 56px;
-  text-align: center;
+  font-size: 36px;
   font-family: Inter;
-  margin-bottom: 3px;
+  margin: 0px;
+  text-align: left;
+  padding-bottom: 8px;
 }
 
 h2{
   color: #E6E1E4 ;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 300;
   font-family: Roboto;
-  margin-top: 1px;
+  margin: 0px;
+  text-align: left
 }
 
 a{
   text-decoration: underline;
   color: #E6E1E4;
   font-family: Roboto;
-  font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 8px;
   margin-bottom: 1px;
 }
@@ -38,7 +46,7 @@ p{
   color: #E6E1E4;
   font-weight: 400;
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 16px;
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 8px;
@@ -66,21 +74,18 @@ p{
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: inherit;
-  background-color: #474747;
 }
 
 .gradient {
-  background: linear-gradient(0deg, #131416 18%, rgba(255, 244, 244, 0) 100%);
-}
-
-.centered {
+  background: linear-gradient(0deg, #131416 15%, rgba(255, 244, 244, 0) 100%);
+  padding-top: 160px;
+  padding-right: 216px;
+  padding-bottom: 16px;
+  padding-left: 216px;
+  display: flex;
+  flex-direction: row;
   text-align: center;
-  background: #131416;
-}
-
-.main {
-  background: #131416;
+  align-items: flex-end;
 }
 
 .contact {
@@ -104,6 +109,10 @@ p{
 
 .container {
   padding: 10%;
+  padding-right: 216px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-left: 216px;
 }
 
 @media (max-width: 960px) {
@@ -137,10 +146,12 @@ p{
 }
 
 .img-circle {
-   width: 275px;
-   margin-top: 15%;
+   width: 175px;
    border: 5px solid #E6E1E4;
    border-radius: 50%;
+   display: flex;
+    flex-direction: column-reverse;
+    position: relative;
 }
 
 .list-inline{
