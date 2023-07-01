@@ -11,45 +11,63 @@
     <meta property="og:site_name" content="Jules Guillot">
     <link href="https://fonts.googleapis.com/css?family=Inter:wght@600|Roboto+Slab:100,300,400,500,700,900|Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="pop-in.js"></script>
   </head>
 
   <body>
-    <div>
-      <div class="background">
+      <div class="header">
         <div class="gradient">
+          <div class="carte_de_visite">
           <img src="images/face.jpg" alt="profile picture" class="img-circle">
-            <div class="title">
-              <h1>Jules Guillot</h1>
-              <h2>Data Analyst @Spendesk</h2>
-            </div>
+          <div class="header_title">
+            <h1>Jules Guillot</h1>
+            <h2>Data Analyst</h2>
+          </div>
+        </div>
+          <div class="social"> <!--social logos-->
+            <a href="https://www.linkedin.com/in/jules-guillot/" class="social_btn" id="linkedin"></a>
+            <a href="https://www.malt.fr/profile/julesguillot" class="social_btn" id="malt"></a>
+          </div>
         </div>
       </div>
       
       <div class="container">
+
         <div class="topnav">
           <ul>
+            <li style="height: 40px;"><a href="#"><img src="images/home.png" alt="home" style="height: 24px;filter: invert(1);"></a></li>
             <li><a href="#">profile</a></li>
             <li><a href="#">stack</a></li>
             <li><a href="#">blog</a></li>
             <li><a href="#">contact</a></li>
          </ul>
         </div>
+
+      <button class="open-pop-in-btn">Exp 1</button>
+
+      <div class="pop-in-container">
+        <div class="pop-in-content">
+          <h1>Test</h1>
+          <button class="close-pop-in-btn">X</button>
+        </div>
       </div>
+    </div>
+      
+
       <footer>
-      <div style="justify-content: center; display: flex;">
+      <div class="footer_div">
         <p>Homemade with</p>
         <svg class="heart" viewBox="0 0 32 29.6">
           <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
           c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
         </svg> 
       </div>
-      <div style="justify-content: center; display: flex;">
+      <div class="footer_div">
         <a href="">Figma mock-up</a>
         <p> | </p>
         <a href="">Github repo</a>
       </div>
     </footer>
-    </div>
   </body>
 
 </html>
