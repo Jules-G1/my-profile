@@ -1,81 +1,73 @@
 .header {
-    background: url(../images/banner.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
+  background: url(../images/banner.jpg) center/cover no-repeat;
+}
 
-.header h1{
-    color: #E6E1E4;
-    font-weight: 400;
-    font-size: 36px;
-    font-family: Roboto;
-    margin: 0px;
-    text-align: left;
-    padding-bottom: 8px;
-  }
-  
-.header h2{
-    color: #E6E1E4;
-    font-weight: 300;
-    font-size: 24px;
-    font-family: Roboto;
-    margin: 0px;
-    text-align: left
-  }
+.header h1 {
+  color: #e6e1e4;
+  font-weight: 400;
+  font-size: 36px;
+  font-family: Roboto;
+  margin: 0;
+  text-align: left;
+  padding-bottom: 8px;
+}
 
-.header_title{
-    padding-left: 16px;
-    padding-bottom: 5px;
-  }
+.header h2 {
+  color: #e6e1e4;
+  font-weight: 300;
+  font-size: 24px;
+  font-family: Roboto;
+  margin: 0;
+  text-align: left;
+}
+
+.header_title {
+  padding-left: 16px;
+  padding-bottom: 5px;
+}
 
 .gradient {
-    background: linear-gradient(0deg, #131416 15%, rgba(255, 244, 244, 0) 100%);
-    padding-top: 8%;
-    padding-right: 216px;
-    padding-bottom: 16px;
-    padding-left: 216px;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
+  background: linear-gradient(0deg, #131416 15%, rgba(255, 244, 244, 0) 100%);
+  padding: 8% 216px 16px 216px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: flex-end;
+  justify-content: space-between;
+}
 
 .img-circle {
-    width: 175px;
-    border: 5px solid #ffffff;
-    border-radius: 50%;
-    display: flex;
-     flex-direction: column-reverse;
-     position: relative;
- }
+  width: 175px;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+}
 
- .carte_de_visite{
-    display: flex;
-    align-items: flex-end;
- }
+.carte_de_visite {
+  display: flex;
+  align-items: flex-end;
+}
 
- /* Social buttons */
-
-.social{
-    display: flex;
+.social {
+  display: flex;
 }
 
 .social_btn {
-    width: 30px;
-    height: 30px;
-    background-size: cover;
-    filter: brightness(0) invert(1);
-    margin: 4px;
-  }
-  
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  filter: brightness(0) invert(1);
+  margin: 4px;
+}
+
 #linkedin {
-    background-image: url('../images/linkedin-logo.png');
+  background-image: url('../images/linkedin-logo.png');
 }
 
 #malt {
-    background-image: url('../images/malt-logo.png');
+  background-image: url('../images/malt-logo.png');
 }
 
 #home_icon {

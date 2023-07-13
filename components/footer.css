@@ -1,40 +1,40 @@
-.footer_div{
-    justify-content: center;
-    display: flex;
+.footer_div {
+  justify-content: center;
+  display: flex;
 }
 
-.footer_div a{
-    text-decoration: underline;
-    color: #E6E1E4;
-    font-family: Roboto;
-    font-size: 12px;
-    margin-top: 8px;
-    margin-bottom: 1px;
-  }
-  
-.footer_div p{
-    color: #E6E1E4;
-    font-weight: 400;
-    font-family: Roboto;
-    font-size: 12px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 8px;
-    margin-bottom: 1px;
-  }
+.footer_div a {
+  text-decoration: underline;
+  color: #e6e1e4;
+  font-family: Roboto;
+  font-size: 12px;
+  margin: 8px 0 1px; /* Combine margin properties */
+}
 
-/* Pulsating Heart*/
+.footer_div p {
+  color: #e6e1e4;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 12px;
+  margin: 8px 10px 1px; /* Combine margin properties */
+}
 
 .heart {
-    fill: #8a212c;
-    position: relative;
-    top: 3px;
-    width: 16px;
-    animation: pulse 1s ease infinite;
+  fill: #8a212c;
+  position: relative;
+  top: 3px;
+  width: 16px;
+  animation: pulse 1s ease infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
   }
-  
-  @keyframes pulse {
-    0% { transform: scale(0.8); }
-    50% { transform: scale(1.2); }
-    100% { transform: scale(0.8); }
+  50% {
+    transform: scale(1.2);
   }
+  100% {
+    transform: scale(0.8);
+  }
+}
